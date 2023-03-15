@@ -50,6 +50,7 @@ import java.util.stream.Collectors;
 @Slf4j
 public class APIHelper implements OpenAPIEngine {
 
+    // test
     public String testAPI(String uri, long groupID, Long shopID, JSONObject requestBody) {
         TestRequest req = new TestRequest(uri);
         req.setGroupID(groupID);
